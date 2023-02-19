@@ -1,0 +1,269 @@
+*
+{
+  padding:0px;
+  margin:0px;
+}
+.p1
+{
+  background-color: rgb(6, 6, 6);
+  background-size:cover;
+}
+.background
+{
+    height:100vh;
+    
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:scroll; 
+    border-radius:1cm;
+    background-blend-mode: lighten;
+    animation-name:a1;
+    animation-iteration-count:infinite;
+    animation-duration:20s;
+    
+}
+ @keyframes a1 
+ {
+    0% {background-image:url("badmenton.jpg");}
+    50% {background-image:url("cricket.jpg");}
+    60% {background-image:url("cricket.jpg");}
+    85%{background-image:url("football.jpg");}
+    100% {background-image:url("badmenton.jpg");}
+    
+ } 
+ .m1
+ {
+  
+  width:20%;
+  border: 10px solid rgb(214, 216, 191);
+  color: darkgreen;
+  border-radius: 50%; 
+  padding-left:3%;
+  height:10svh;
+  padding-top:2.5%;
+   margin-left:40%;
+   animation-name:a2;
+  animation-iteration-count:infinite;
+  animation-duration:5s;
+  animation-delay:5sec;
+  font-family:cursive;
+  }
+  @keyframes a2
+  {
+    5% {background-color:rgb(222, 134, 27);}
+    25% {background-color:rgb(209, 81, 30);}
+    50% {background-color:rgb(233, 255, 196);}
+    75%{background-color:rgb(158, 106, 123);}
+    100% {background-color:rgb(171, 180, 114);}
+    
+
+  }
+ .m2
+ {
+  
+  width:15%;
+  border: 10px solid rgb(214, 216, 191);
+  color: darkgreen;
+  border-radius: 50%; 
+  padding-left:4%;
+  height:8svh;
+  margin-top:1%;
+  padding-top:2%;
+  margin-left:3%;
+  animation-name:a3;
+  animation-iteration-count:infinite;
+  animation-duration:5s;
+  animation-delay:10sec;
+  font-family:cursive;
+ }
+@keyframes a3
+{
+  0%{opacity:0;}
+  25% {background-color:rgb(22, 22, 22);}
+  100%{background-color:rgb(238, 55, 14);}
+}
+.m21
+{
+  display:none;
+  z-index:1;
+  margin-top:50%;
+  border: 5px solid rgb(214, 216, 191);
+  width:40%;
+  padding:10%;
+  animation-name:xx1;
+  animation-iteration-count:infinite;
+  animation-duration:5s;
+  animation-delay:10sec;
+  background-color: chocolate;
+}
+@keyframes xx1
+{
+  0%{transform: rotate(-40deg);}
+  25% {transform: rotate(20deg);}
+  100%{transform: rotate(20deg);}
+}
+
+.m2:hover .m21
+{
+ display: block;
+} 
+
+.m3
+ {
+  
+  width:18%;
+  border: 10px solid rgb(214, 216, 191);
+  color: darkgreen;
+  border-radius: 50%; 
+  padding-left:1%;
+  height:8svh;
+  padding-top:2%;
+  margin-left:20%;
+  animation-name:a4;
+  animation-iteration-count:infinite;
+  animation-duration:5s;
+  animation-delay:15sec;
+  font-family:cursive;
+  
+}
+@keyframes a4
+{
+  0%{opacity:0;}
+  20% {background-color:rgb(22, 22, 22);}
+  100%{background-color:rgb(243, 231, 9);}
+}
+.m31
+{
+  display:none;
+  z-index:1;
+  margin-top:50%;
+  border: 5px solid rgb(214, 216, 191);
+  width:40%;
+  padding:10%;
+  animation-name:xx1;
+  animation-iteration-count:infinite;
+  animation-duration:5s;
+  animation-delay:10sec;
+  background-color: chocolate;
+}
+.m3:hover .m31
+{
+ display: block;
+}  
+
+
+.m4
+ {
+  
+  width:23%;
+  border: 10px solid rgb(214, 216, 191);
+  color: darkgreen;
+  border-radius: 50%; 
+  padding-left:-1%;
+  height:10svh;
+  padding-top:3%;
+  margin-left:35%;
+  animation-name:a5;
+  animation-iteration-count:infinite;
+  animation-duration:5s;
+  animation-delay:15sec;
+  font-family:cursive;
+ }
+@keyframes a5
+{
+  0%{opacity:0;}
+  15% {background-color:rgb(22, 22, 22);}
+  100%{background-color:rgb(11, 211, 229);}
+}
+.m41
+{
+  display:none;
+  z-index:1;
+  margin-top:25%;
+  margin-left:10%;
+  border: 5px solid rgb(214, 216, 191);
+  width:40%;
+  padding:10%;
+  animation-name:xx1;
+  animation-iteration-count:infinite;
+  animation-duration:5s;
+  animation-delay:10sec;
+  background-color: chocolate;
+
+}
+.m4:hover .m41
+{
+ display: block;
+}   
+
+
+.m5
+ {
+  
+  width:12%;
+  border: 10px solid rgb(214, 216, 191);
+  color: darkgreen;
+  border-radius: 50%; 
+  padding-left:3%;
+  height:6svh;
+  padding-top:1%;
+  margin-left:60%;
+  animation-name:a6;
+  animation-iteration-count:infinite;
+  animation-duration:5s;
+  animation-delay:15sec;
+  font-family:cursive; 
+}
+ @keyframes a6
+{
+  0%{opacity:0;}
+  10% {background-color:rgb(22, 22, 22);}
+  100%{background-color:rgb(225, 12, 48);}
+}
+.m51
+{
+  display:none;
+  z-index:1;
+  margin-top:-20%;
+
+}
+.m5:hover .m51
+{
+ display: block;
+}   
+
+
+.m6
+ {
+  
+  width:10%;
+  border: 10px solid rgb(214, 216, 191);
+  color: darkgreen;
+  border-radius: 50%; 
+  padding-left:3%;
+  height:6svh;
+  padding-top:1%;
+  margin-left:80%;
+  animation-name:a7;
+  animation-iteration-count:infinite;
+  animation-duration:5s;
+  animation-delay:15sec;
+  font-family:cursive; 
+}
+ @keyframes a7
+{
+  0%{opacity:0;}
+  5% {background-color:rgb(22, 22, 22);}
+  100%{background-color:rgb(222, 134, 27);}
+}
+.m61
+{
+  display:none;
+  z-index:1;
+  margin-top:5%;
+
+}
+.m6:hover .m61
+{
+ display: block;
+}   

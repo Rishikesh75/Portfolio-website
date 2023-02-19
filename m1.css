@@ -1,0 +1,221 @@
+body
+{
+    height: 100vh;
+    background-image:url("main1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:scroll; 
+    border-radius:1cm;
+    background-blend-mode: lighten;
+  }
+img.profile
+{
+    
+    margin-top: 10px;
+    margin-left:140px;
+    border-radius: 25%;
+    background: url(prophoto.jpg);
+    background-position:50% 50%;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    opacity:1;
+    z-index:1;
+
+}
+div.bookmark
+{
+    background-color: lightgrey;
+    width: 75%;
+    border: 0px solid thistle;
+    padding-left: 3%;
+    animation-name:a3;
+    animation-iteration-count:infinite;
+    animation-duration: 5s;
+    height:15%;
+    border-radius:5%; 
+  }
+ @keyframes a3 
+ {
+  0%   {border-width:0px;width:0%;height:0%;}
+  50%  {border-width:5px;width:35%;height:5%;}
+  100% {border-width:10px;width:75%;height:15%;}
+ }
+div.intro
+{
+    background-color: rgb(10, 10, 10);
+    width: 110%;
+    border: 10px solid rgb(214, 216, 191);
+    padding: 50px;
+    border-radius: 30%; 
+  
+  
+  }
+
+.com
+{
+    margin-top: 10%; 
+}
+
+.i1
+{
+    
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 0, 17), 0 0 5px rgb(255, 0, 17);
+    font-family: "Lucida Console", "Courier New", monospace;
+    border-bottom-style: dashed;
+    border-left-style: dashed;
+    border-bottom-color: rgb(21, 145, 218);
+    border-left-color: rgb(21, 145, 218);
+    border-width: 3px;  
+    padding-left: 4px; 
+    animation-name:a4;
+    animation-iteration-count:infinite;
+    animation-duration: 1s;
+}
+@keyframes a4 
+{
+  0%{color: black;}
+  50%{color:rgb(238, 244, 237);};
+  100%{color:black;}
+}
+a.one:link
+{
+    text-decoration:none;
+}
+a.one:hover
+{
+    text-decoration:none;
+    font-size: 120%;;
+    color:rgba(248, 13, 13, 0.429); 
+    font-family: Apple Chancery, cursive; 
+   
+}
+a.one:active
+{
+    text-decoration:none;
+    opacity:0.5;
+    color:rgba(23, 105, 23, 0.429);   
+}
+.heading
+{
+ 
+  font-family:Apple Chancery, cursive; ;
+  font-weight: 700;
+  background-image:url(back.webp); 
+  background-size:20%;
+  background-blend-mode:25%; 
+  padding: 20px;
+  background-repeat:no-repeat;
+  background-position:center;
+  text-align: center;
+  margin-top:5% ;
+ margin-left:5%;
+ background-blend-mode:lighten;
+ 
+}
+.dropdown
+ {
+    position: relative;
+  }
+  
+  .dropdown-content 
+  {
+   display: none;
+  position: absolute;
+   z-index: 1;
+   margin-left:40%;
+   margin-top: 5%;
+   
+}
+.dropdown:hover .dropdown-content
+{
+    opacity: 1;
+    display: block;  
+     
+}
+* {
+    box-sizing: border-box;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    padding: 100px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .im
+  {
+    width:  20%;
+    height: 20%;
+    animation-name: a2;
+    animation-duration: 5s;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    border-radius:10%;
+  }  
+  @keyframes a2
+{
+  0%   {width:20%;height:20% ;}
+  50%  {width:40%;height:40%;}
+  100% {width:70%;height:70%;}
+}
+.container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  max-width: 400px;
+}
+
+.overlay {
+  position: absolute;
+  top: 2.7%;
+  left:140px;
+  width: 300px;
+  height: 300px;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: red;
+  border-radius:20%;
+}
+
+.container:hover .overlay
+{
+  opacity: 1;
+}
+.icon 
+{
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  margin-top:50%;
+  margin-left:50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay:hover .icon
+{
+opacity:0.5;
+}
+
+
+.fa-user:hover {
+  color: rgb(20, 1, 1);
+}

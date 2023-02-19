@@ -1,0 +1,14 @@
+body
+{
+ animation: x1;
+ background-size:100% 100%; 
+ animation-iteration-count: infinite; 
+}
+@keyframes x1 
+{
+  0%{ background-image:"hobbies.jpg" ; };
+  25%{ background-image:"wp2644641.jpg" ; };
+  50%{ background-image:"3c140461fdb647bb3cf3ca864b64cee3.jpg" ;  };
+  75%{ background-image: "main1.jpg" ; };
+  100%{background-image:"hobbies.jpg" ;}
+}
